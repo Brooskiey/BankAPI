@@ -1,4 +1,6 @@
+
 plugins {
+    id "org.sonarqube" version "3.1.1"
     id 'java'
 }
 
@@ -26,9 +28,6 @@ test{
     useJUnitPlatform()
 }
 
-plugins {
-    id "org.sonarqube" version "3.1.1"
-}
 
 sonarqube {
     properties {
